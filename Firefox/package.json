@@ -1,0 +1,9 @@
+{
+  "name": "windows_phone_store_qr",
+  "title": "Windows Phone Store QR",
+  "id": "jid1-62CRcVJtvTHqAQ",
+  "description": "Add a QR Code to each app's page in windowsphone.com, so you can use Bing Vision to open it on your Windows Phone.",
+  "author": "George Schizas",
+  "license": "MPL 2.0",
+  "version": "1.0"
+}
