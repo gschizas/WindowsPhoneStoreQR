@@ -8,7 +8,8 @@
       ],
       "matches": [
         "http://www.windowsphone.com/*/store/app/*",
-        "https://www.windowsphone.com/*/store/app/*"
+        "https://www.windowsphone.com/*/store/app/*",
+        "https://www.microsoft.com/en-us/store/apps/*"
       ]
     }
   ],
