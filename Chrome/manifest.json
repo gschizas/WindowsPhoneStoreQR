@@ -9,7 +9,8 @@
       "matches": [
         "http://www.windowsphone.com/*/store/app/*",
         "https://www.windowsphone.com/*/store/app/*",
-        "https://www.microsoft.com/*/store/apps/*"
+        "https://www.microsoft.com/*/store/apps/*",
+        "https://www.microsoft.com/*/store/p/*"
       ]
     }
   ],
@@ -20,5 +21,5 @@
   "manifest_version": 2,
   "name": "Windows Phone Store QR",
   "update_url": "https://clients2.google.com/service/update2/crx",
-  "version": "1.2"
+  "version": "1.3"
 }

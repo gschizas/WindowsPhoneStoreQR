@@ -1,6 +1,8 @@
 // Get App ID
 var pathParts = window.location.pathname.split('/');
 var appId = pathParts[pathParts.length - 1];
+var lang = pathParts[1];
+var appName = pathParts[4];
 
 var url = "";
 
@@ -12,8 +14,8 @@ if (window.location.host == "www.windowsphone.com") {
     url = "http://windowsphone.com/s?appId=" + appId;
 }
 if (window.location.host == "www.microsoft.com") {
-    $('.ph-brand').after(placeholder);
-    url = "https://www.microsoft.com//store/apps//" + appId;
+    $('.m-product-detail-hero-xpa').after(placeholder);
+    url = "https://www.microsoft.com/" + lang + "/store/p/" + appName + "/" + appId;
     // double slash after microsoft.com to use a default language.
     // double slash after apps to use the default name of the app.
 }
